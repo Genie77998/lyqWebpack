@@ -1,0 +1,10 @@
+body{
+	color:#000;
+	background: url("../img/wxcoupon-10.png");
+}
+
+
+.aa {
+	display: flex;
+	        transform: translate(-50%);
+}

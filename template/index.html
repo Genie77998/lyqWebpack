@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+   
+    <script type="text/javascript">
+    (function(win) {
+        function resize() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 10 + "px";
+        }
+        var b = null;
+        win.addEventListener("resize", function() {
+            clearTimeout(b), b = setTimeout(resize, 300)
+        }, !1);
+        resize();
+    })(window);
+    </script>
+
+        
+
+    <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+
+<body>
+	
+</body>
+
+</html>
+
